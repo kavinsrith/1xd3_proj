@@ -1,0 +1,30 @@
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.imagesect div {
+  z-index: 15;
+}
+.imagesect img {
+  position: relative;
+  max-width: 95%;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  z-index: 10;
+}
+
+.overlaytext {
+  background: rgba(0, 0, 0);
+  color: white;
+  padding: 2rem;
+  text-align: left;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
